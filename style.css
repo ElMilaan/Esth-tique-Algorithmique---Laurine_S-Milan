@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.link{
+    width: fit-content;
+    padding: 3% 1.5%;
+    background-color: burlywood;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    transition: 0.2s ease;
+    border-radius: 100px;
+}
+
+.link:hover{
+    background-color: black;
+    color: burlywood;
+    transition: 0.2s ease-in-out;
+}
